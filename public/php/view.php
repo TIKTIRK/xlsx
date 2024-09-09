@@ -33,4 +33,7 @@
             ?>
         </tbody>
     </table>
+    <form method="post" action="../html/index.html"> 
+        <input type="submit" value="Назад">
+    </form>
 </body>

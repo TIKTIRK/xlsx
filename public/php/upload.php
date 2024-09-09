@@ -1,6 +1,6 @@
 <?php
 require_once("db.php");
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlxs;
@@ -31,5 +31,5 @@ use PhpOffice\PhpSpreadsheet\Writer\Xlxs;
         }
         }
     }
-    header('location: index.html')
+    header('location: ../html/index.html')
 ?>
